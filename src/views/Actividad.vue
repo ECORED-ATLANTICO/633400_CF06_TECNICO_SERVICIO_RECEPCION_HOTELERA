@@ -2,506 +2,873 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
+        <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadController,
+    Actividad,
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Normativa y operación hotelera: aplicando principios en recepción',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la apropiación de conocimientos relacionados con normatividad hotelera, registro de huéspedes, protección de datos, seguridad de la información y responsabilidad operativa dentro de los establecimientos de alojamiento.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+
+          texto: '¿Cuál es la finalidad principal del registro hotelero?',
+
+          imagen: require('@/assets/actividad/imagen1.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+
+              texto: 'Decorar documentos.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+
+              texto: 'Formalizar el ingreso del huésped.',
+
               esCorrecta: true,
             },
+
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+
+              texto: 'Organizar inventarios.',
+
               esCorrecta: false,
             },
+
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+
+              texto: 'Promocionar servicios.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 2,
+
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué documento se utiliza comúnmente para registrar huéspedes extranjeros?',
+
+          imagen: require('@/assets/actividad/imagen2.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+
+              texto: 'Licencia de conducción.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+
+              texto: 'Tarjeta bancaria.',
+
               esCorrecta: false,
             },
+
             {
               id: 'c',
-              texto: '<em>Text</em>',
+
+              texto: 'Pasaporte vigente.',
+
               esCorrecta: true,
             },
+
             {
               id: 'd',
-              texto: '<em>Route</em>',
+
+              texto: 'Carné institucional.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+
+          texto:
+            '¿Cuál es uno de los principios fundamentales de la protección de datos?',
+
+          imagen: require('@/assets/actividad/imagen3.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+
+              texto: 'Compartir información libremente.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+
+              texto: 'Confidencialidad de la información.',
+
               esCorrecta: true,
             },
+
+            {
+              id: 'c',
+
+              texto: 'Publicar datos personales.',
+
+              esCorrecta: false,
+            },
+
+            {
+              id: 'd',
+
+              texto: 'Eliminar registros diariamente.',
+
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 4,
+
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué herramienta protege las redes informáticas frente a accesos no autorizados?',
+
+          imagen: require('@/assets/actividad/imagen4.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+
+              texto: 'PMS.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+
+              texto: 'Router.',
+
               esCorrecta: false,
             },
+
             {
               id: 'c',
-              texto: '<em>Board</em>',
+
+              texto: 'Firewall.',
+
               esCorrecta: true,
             },
+
             {
               id: 'd',
-              texto: '<em>Route</em>',
+
+              texto: 'Escáner.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+
+          texto: '¿Cuál es una buena práctica de ciberseguridad?',
+
+          imagen: require('@/assets/actividad/imagen1.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+
+              texto: 'Compartir contraseñas.',
+
+              esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+
+              texto: 'Descargar archivos desconocidos.',
+
               esCorrecta: false,
             },
+
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+
+              texto: 'Utilizar contraseñas seguras.',
+
+              esCorrecta: true,
             },
+
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+
+              texto: 'Mantener sesiones abiertas.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 6,
+
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué información mínima debe contener el registro hotelero según la normatividad?',
+
+          imagen: require('@/assets/actividad/imagen2.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+
+              texto: 'Redes sociales del huésped.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+
+              texto: 'Nacionalidad y fechas de estadía.',
+
               esCorrecta: true,
             },
+
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+
+              texto: 'Historial médico.',
+
               esCorrecta: false,
             },
+
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+
+              texto: 'Información financiera completa.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 7,
+
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué área del hotel realiza principalmente el proceso de ingreso o <em>check-in</em>?',
+
+          imagen: require('@/assets/actividad/imagen3.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+
+              texto: 'Cocina.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+
+              texto: 'Mantenimiento.',
+
               esCorrecta: false,
             },
+
+            {
+              id: 'c',
+
+              texto: 'Recepción.',
+
+              esCorrecta: true,
+            },
+
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+
+              texto: 'Compras.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+
+          texto: '¿Cuál es el propósito de las copias de seguridad?',
+
+          imagen: require('@/assets/actividad/imagen4.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+
+              texto: 'Decorar archivos digitales.',
+
               esCorrecta: false,
             },
+
+            {
+              id: 'b',
+
+              texto: 'Recuperar información en caso de pérdida.',
+
+              esCorrecta: true,
+            },
+
             {
               id: 'c',
-              texto: 'tStop',
+
+              texto: 'Eliminar datos automáticamente.',
+
               esCorrecta: false,
             },
+
             {
               id: 'd',
-              texto: 'bValues',
+
+              texto: 'Compartir información públicamente.',
+
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+
+          texto: '¿Qué significa la sigla ESCNNA?',
+
+          imagen: require('@/assets/actividad/imagen1.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+
+              texto: 'Estrategia de control hotelero.',
+
               esCorrecta: false,
             },
+
             {
               id: 'b',
-              texto: 'Falso',
+
+              texto: 'Sistema estadístico nacional.',
+
+              esCorrecta: false,
+            },
+
+            {
+              id: 'c',
+
+              texto:
+                'Explotación sexual comercial de niños, niñas y adolescentes.',
+
               esCorrecta: true,
             },
+
+            {
+              id: 'd',
+
+              texto: 'Escuela de seguridad turística.',
+
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+
+          texto: '¿Qué acción debe realizarse ante un correo sospechoso?',
+
+          imagen: require('@/assets/actividad/imagen2.png'),
+
           barajarRespuestas: true,
+
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+
+              texto: 'Abrirlo inmediatamente.',
+
               esCorrecta: false,
             },
+
+            {
+              id: 'b',
+
+              texto: 'Descargar archivos adjuntos.',
+
+              esCorrecta: false,
+            },
+
+            {
+              id: 'c',
+
+              texto: 'Compartirlo con otros usuarios.',
+
+              esCorrecta: false,
+            },
+
+            {
+              id: 'd',
+
+              texto: 'Verificar su autenticidad antes de abrirlo.',
+
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Por qué es importante verificar la identidad del huésped durante el registro?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Para ofrecer promociones.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Para cumplir la normatividad y garantizar la seguridad.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Para reducir el tiempo de limpieza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para asignar tarifas más altas.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué responsabilidad tiene el establecimiento frente a los datos personales del huésped?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Publicarlos cuando sea necesario.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Protegerlos y tratarlos conforme a la normatividad vigente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compartirlos con cualquier empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminarlos inmediatamente después del check-in.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es una consecuencia de no proteger adecuadamente la información de los huéspedes?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Mejorar la confianza del cliente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar la ocupación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Exponer datos personales y generar sanciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir los costos operativos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué acción fortalece la seguridad informática en un hotel?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Utilizar la misma contraseña para todos los usuarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Actualizar periódicamente los sistemas y antivirus.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Compartir las claves entre compañeros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Desactivar el firewall.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es el objetivo de la política de tratamiento de datos personales?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Facilitar la divulgación de información.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Garantizar el uso adecuado y la protección de los datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar todos los registros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar el ingreso de huéspedes.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué debe hacer un colaborador si identifica un posible incidente de seguridad de la información?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorarlo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Compartirlo con otros huéspedes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reportarlo de inmediato al responsable correspondiente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Publicarlo en redes sociales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Por qué es importante conservar correctamente los registros hoteleros?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo por motivos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Porque respaldan el cumplimiento de obligaciones legales y operativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Para aumentar las tarifas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para reducir el personal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es una medida para prevenir el acceso no autorizado a los sistemas del hotel?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantener sesiones abiertas permanentemente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Bloquear el equipo cuando no esté en uso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compartir usuarios y contraseñas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Desactivar los controles de acceso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué debe hacer el personal cuando detecta una posible situación relacionada con ESCNNA?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar el hecho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Resolverlo sin informar a nadie.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Activar los protocolos establecidos y reportar la situación a las autoridades competentes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Informarlo únicamente al huésped.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el propósito de cumplir la normatividad en los establecimientos de alojamiento?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar únicamente las ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir el número de huéspedes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Garantizar una operación segura, legal y orientada a la protección de los usuarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar los procesos administrativos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
   }),
 }
 </script>
+esooooo
