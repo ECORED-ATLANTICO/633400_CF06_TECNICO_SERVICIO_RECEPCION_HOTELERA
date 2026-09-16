@@ -61,8 +61,7 @@
                   p.mb-0 A continuación, se presenta el siguiente enlace, el cual le permitirá profundizar en los principales retos y acciones que se están implementando en Colombia para mitigar el impacto ambiental y promover el desarrollo del turismo sostenible:
             .col-lg-2.col-md-12(style="text-align: center !important;")
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=G4O0XpuGbe4" target="_blank", style="text-align: center !important;")
-                span Consultar video
-                i.fas.fa-play
+                span Ir al recurso
 
     .row.justify-content-center.align-items-center.mb-4  
       .col-lg-10
@@ -80,8 +79,7 @@
                   p.mb-0 Lo invitamos a visitar la página de ACOTUR (Asociación de Turismo Responsable), entidad que trabaja por el desarrollo y la promoción del turismo responsable en Colombia.
             .col-lg-2.col-md-12(style="text-align: center !important;")
               a.boton.color-acento-botones(href="https://www.youtube.com/@acoturcol/videos" target="_blank", style="text-align: center !important;")
-                span Consultar video
-                i.fas.fa-play
+                span Ir al recurso
 
     separador
     

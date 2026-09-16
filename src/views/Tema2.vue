@@ -427,28 +427,23 @@
               .row
                 .col-lg-6.col-md-6.col-12.d-flex.mb-3
                   a.boton.w-full.color-acento-botones.justify-content-center(:href="obtenerLink('/downloads/Anexo_Ley_679_de_2001.pdf')" target="_blank")
-                    span Ver anexo Ley 679 de 2001
-                    i.fas.fa-file-download
+                    span Ir al recurso
 
                 .col-lg-6.col-md-6.col-12.d-flex.mb-3
                   a.boton.w-full.color-acento-botones.justify-content-center(:href="obtenerLink('/downloads/Anexo_Ley_985_de_2005.pdf')" target="_blank")
-                    span Ver anexo Ley 985 de 2005
-                    i.fas.fa-file-download
+                    span Ir al recurso
 
                 .col-lg-6.col-md-6.col-12.d-flex.mb-3
                   a.boton.w-full.color-acento-botones.justify-content-center(:href="obtenerLink('/downloads/Anexo_Ley_1558_de_2012.pdf')" target="_blank")
-                    span Ver anexo Ley 1558 de 2012
-                    i.fas.fa-file-download
+                    span Ir al recurso
 
                 .col-lg-6.col-md-6.col-12.d-flex.mb-3
                   a.boton.w-full.color-acento-botones.justify-content-center(:href="obtenerLink('/downloads/Anexo_Decreto_1074_de_2015.pdf')" target="_blank")
-                    span Ver anexo Decreto 1074 de 2015
-                    i.fas.fa-file-download
+                    span Ir al recurso
 
                 .col-lg-6.col-md-6.col-12.d-flex.mb-0
                   a.boton.w-full.color-acento-botones.justify-content-center(:href="obtenerLink('/downloads/Anexo_Decreto_2119_de_2018.pdf')" target="_blank")
-                    span Ver anexo Decreto 2119 de 2018
-                    i.fas.fa-file-download
+                    span Ir al recurso
 
     separador
     
