@@ -110,7 +110,6 @@
           span Riesgos operativos asociados a la seguridad digital  
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img11.png", alt="La figura ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img12.png", alt="La figura ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva.")
-        figcaption Nota. SENA, (2026).
 
 
     .row.mb-5.justify-content-center
@@ -177,7 +176,6 @@
           span Riesgos digitales en hotelería
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Riesgo
@@ -242,7 +240,6 @@
           span Principales recomendaciones y buenas prácticas de ciberseguridad 
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img17.svg", alt="La figura describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img18.svg", alt="La figura describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel.")
-        figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.d-none.d-lg-block

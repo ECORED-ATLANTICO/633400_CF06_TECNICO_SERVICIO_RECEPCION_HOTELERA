@@ -72,11 +72,7 @@
         .bg-color-1-degrade.p-3.mb-0.rounded-2.br-15.align-items-center
           .row.justify-content-center.align-items-center
             .col-lg-10.col-md-12.mb-4.mb-lg-0
-              .row.align-items-center.mb-0
-                .col-lg-auto.mb-4.mb-lg-0
-                  img(src="@/assets/curso/tema4/img06.svg", style="max-width: 100px;").mx-auto
-                .col-lg
-                  p.mb-0 Lo invitamos a visitar la página de ACOTUR (Asociación de Turismo Responsable), entidad que trabaja por el desarrollo y la promoción del turismo responsable en Colombia.
+              p.mb-0 Lo invitamos a visitar la página de ACOTUR (Asociación de Turismo Responsable), entidad que trabaja por el desarrollo y la promoción del turismo responsable en Colombia.
             .col-lg-2.col-md-12(style="text-align: center !important;")
               a.boton.color-acento-botones(href="https://www.youtube.com/@acoturcol/videos" target="_blank", style="text-align: center !important;")
                 span Ir al recurso

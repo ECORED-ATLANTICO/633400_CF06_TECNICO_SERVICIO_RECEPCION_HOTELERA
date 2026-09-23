@@ -97,7 +97,6 @@
           span Marco legal básico para recepción hotelera
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Norma o referente
@@ -197,7 +196,6 @@
           span Derechos y deberes en el alojamiento
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Actor
@@ -236,7 +234,6 @@
           span Decálogo de buenas prácticas para la protección de la información 
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img16.png", alt="La figura presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img16-m.png", alt="La figura presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad.")
-        figcaption Nota. SENA, (2026).
 
 
     .container

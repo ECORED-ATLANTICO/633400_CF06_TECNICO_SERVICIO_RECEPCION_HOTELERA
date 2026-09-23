@@ -207,7 +207,6 @@
           span Aspectos comparativos del registro de huésped nacional y extranjero
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Aspecto
@@ -290,7 +289,6 @@
           span Ejemplo de tarjeta de registro hotelero 
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema2/img17.png", alt="La figura 2 detalla un ejemplo de una tarjeta de registro hotelero empleada para registrar la información del huésped al momento de su ingreso al establecimiento de alojamiento. El formato contiene campos para datos de identificación, información personal, residencia, procedencia y destino del viaje, datos migratorios cuando corresponden, fechas de check-in y check-out, habitación asignada y cantidad de acompañantes.")
         //- img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img16-m.png", alt="La figura presenta un decálogo de buenas prácticas orientadas a la protección de la información de los huéspedes en un establecimiento hotelero, destacando que estos datos son confidenciales y su resguardo es responsabilidad de todo el personal. Se enfatiza la necesidad de verificar la identidad del huésped antes de acceder o compartir información, evitar la divulgación de datos a personas no autorizadas y utilizar contraseñas seguras para el acceso a los sistemas. Además, se resaltan acciones clave como custodiar adecuadamente los documentos físicos y digitales, acceder únicamente a la información necesaria para las funciones laborales, usar de manera segura los dispositivos tecnológicos y reportar oportunamente cualquier incidente. En conjunto, estas prácticas buscan garantizar la seguridad de la información, proteger la privacidad del huésped y preservar la confianza y la reputación del hotel.")
-        figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
 

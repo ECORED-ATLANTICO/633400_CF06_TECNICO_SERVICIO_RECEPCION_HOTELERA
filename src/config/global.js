@@ -174,7 +174,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621602_CF06_DU.zip',
+        download: 'downloads/633400_CF06_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -436,17 +436,17 @@ export default {
       autores: [
         {
           nombre: 'Amparo Virginia Moreno Cantero',
-          cargo: 'Experto temático',
+          cargo: 'Experta temática',
           centro: 'Centro de Servicios y Gestión Empresarial',
         },
         {
           nombre: 'Harbey Enrique Castelblanco',
           cargo: 'Experto temático',
-          centro: 'Centro Colombo Alemán - Regional Atlántico',
+          centro: 'Centro Nacional Colombo Alemán',
         },
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -456,7 +456,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -475,23 +475,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
