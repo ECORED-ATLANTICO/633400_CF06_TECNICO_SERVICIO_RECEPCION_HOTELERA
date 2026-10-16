@@ -108,8 +108,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 #[b Figura 3.]
           span Riesgos operativos asociados a la seguridad digital  
-        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img11.png", alt="La figura ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva.")
-        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img12.png", alt="La figura ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva.")
+        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img11.png", alt="La figura 3 ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva. Los riesgos operativos son los siguientes: accesos no autorizados al PMS, robo o filtración de la información, pérdida de datos, suplantación de identidad, correos fraudulentos, ataques a redes internas y fallas en sistemas tecnológicos.")
+        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img12.png", alt="La figura 3 ilustra siete riesgos digitales en hoteles que afectan la información y la operación, destacando la importancia de la ciberseguridad preventiva. Los riesgos operativos son los siguientes: accesos no autorizados al PMS, robo o filtración de la información, pérdida de datos, suplantación de identidad, correos fraudulentos, ataques a redes internas y fallas en sistemas tecnológicos.")
 
 
     .row.mb-5.justify-content-center
@@ -238,8 +238,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 #[b Figura 4.]
           span Principales recomendaciones y buenas prácticas de ciberseguridad 
-        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img17.svg", alt="La figura describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel.")
-        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img18.svg", alt="La figura describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel.")
+        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img17.svg", alt="La figura 4 describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel. Dentro de la recomendaciones de ciberseguridad se encuentran: utilizar contraseñas seguras y cambiarlas periódicamente, bloquear equipos cuando no estén en uso, evitar compartir usuarios o claves de acceso, verificar la autenticidad de correos electrónicos, no descargar archivos sospechosos, custodiar documento físicos, reportar incidentes o accesos irregulares y acceder únicamente a la información necesaria para la funciones asignadas.")
+        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img18.svg", alt="La figura 4 describe ocho recomendaciones de ciberseguridad para proteger datos, prevenir incidentes y garantizar la continuidad operativa del hotel. Dentro de la recomendaciones de ciberseguridad se encuentran: utilizar contraseñas seguras y cambiarlas periódicamente, bloquear equipos cuando no estén en uso, evitar compartir usuarios o claves de acceso, verificar la autenticidad de correos electrónicos, no descargar archivos sospechosos, custodiar documento físicos, reportar incidentes o accesos irregulares y acceder únicamente a la información necesaria para la funciones asignadas.")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.d-none.d-lg-block

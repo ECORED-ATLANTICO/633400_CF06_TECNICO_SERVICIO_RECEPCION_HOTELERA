@@ -306,17 +306,17 @@
       .col-lg-9.mb-lg-0.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-23")
           div(titulo="Ley 1558 de 2012")
-            p.ms-5 Modifica la Ley General de Turismo y fortalece el control estadístico del sector hotelero.
+            p.ms-5 Esta ley modificó la Ley General de Turismo e incorporó disposiciones relacionadas con la información estadística del sector. Posteriormente, el Decreto 2119 de 2018 y la Ley 2068 de 2020 actualizaron el régimen de registro de huéspedes, complementado por el Decreto 1836 de 2021 y la Resolución 700 de 2021.
             ul.lista-ul.ms-5.mb-0
               li 
                 i.lista-ul__vineta
-                | La información de las tarjetas de registro hotelero debe remitirse al DANE.
+                | Registro de huéspedes: los prestadores de servicios de alojamiento turístico deben diligenciar la Tarjeta de Registro de Alojamiento (TRA) mediante el sistema dispuesto por el Ministerio de Comercio, Industria y Turismo.
               li 
                 i.lista-ul__vineta
-                | Los datos se utilizan únicamente con fines estadísticos.
+                | Información estadística: los datos registrados contribuyen a la generación de estadísticas turísticas y al suministro de información a las autoridades competentes, conforme a la normativa aplicable.
               li 
                 i.lista-ul__vineta
-                | La información debe manejarse bajo reserva y confidencialidad.
+                | Protección de datos personales: la información de los huéspedes debe tratarse bajo criterios de seguridad, confidencialidad y cumplimiento de la Ley 1581 de 2012 y sus disposiciones reglamentarias.
 
           div(titulo="Decreto 1074 de 2015")
             p.ms-5 Reglamenta la Tarjeta de Registro Hotelero para establecimientos de alojamiento turístico.

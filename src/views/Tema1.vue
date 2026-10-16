@@ -76,17 +76,17 @@
       h2 1.2 Marco legal hotelero
 
 
-    p.mb-4 El marco legal hotelero en Colombia se articula principalmente con la Ley 300 de 1996, conocida como Ley General de Turismo, y con las disposiciones que regulan la actividad de los prestadores de servicios turísticos. Esta ley reconoce el turismo como una industria esencial para el desarrollo del país y establece principios relacionados con la coordinación institucional, la competitividad, la protección del usuario y la formalización del sector. 
+    p.mb-4 El marco legal hotelero en Colombia se fundamenta principalmente en la Ley 300 de 1996 (Ley General de Turismo), modificada y complementada por disposiciones posteriores, entre ellas las leyes 1101 de 2006, 1558 de 2012 y 2068 de 2020. Este conjunto normativo establece principios y disposiciones relacionados con la organización, competitividad, sostenibilidad, formalización y protección de los usuarios del sector turístico. 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8
         figure
           img(src="@/assets/curso/tema1/img09.png", data-aos="zoom-in").mx-auto
       .col-lg-9
-        p.mb-4.mb-lg-3(data-aos="fade-right") En el caso de los establecimientos de alojamiento y hospedaje, el cumplimiento legal incluye obligaciones relacionadas con la prestación formal del servicio, el Registro Nacional de Turismo, la información clara de precios y condiciones, y la observancia de normas técnicas y de calidad. La guía legal del Ministerio de Comercio, Industria y Turismo recuerda que los establecimientos de alojamiento deben conocer y aplicar la normatividad vigente para consolidar un sector turístico formal, competitivo y confiable.
+        p.mb-4.mb-lg-3(data-aos="fade-right") Para los establecimientos de alojamiento y hospedaje, el cumplimiento normativo comprende obligaciones relacionadas con el Registro Nacional de Turismo (RNT), la información clara sobre tarifas y condiciones del servicio, la protección de los derechos del consumidor y la aplicación de los requisitos técnicos y de calidad exigibles. Estas disposiciones se complementan con el Decreto 1074 de 2015, Decreto Único Reglamentario del Sector Comercio, Industria y Turismo, y sus modificaciones vigentes.
         
         .cajon.bg-color-23.p-4
-          p.mb-0 Para el aprendiz, este marco legal debe entenderse como el soporte que da legitimidad a la operación hotelera. Cada procedimiento realizado en recepción, desde el registro del huésped hasta la entrega de información sobre tarifas o políticas del establecimiento, debe responder a criterios de transparencia, responsabilidad y cumplimiento.
+          p.mb-0 En el contexto de la recepción hotelera, este marco legal orienta los procedimientos de reservas, registro de huéspedes, información comercial y atención al usuario. Su conocimiento y aplicación contribuyen a garantizar una prestación del servicio transparente, responsable y acorde con las obligaciones legales del establecimiento.
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -105,20 +105,20 @@
             tbody
               tr
                 td Ley 300 de 1996
-                td Define el marco general del turismo en Colombia.
+                td Define el marco general del turismo en Colombia
                 td Formalización, calidad y responsabilidad del prestador
               tr
-                td Registro Nacional de Turismo
+                td Registro Nacional de Turismo.
                 td Identifica prestadores turísticos formales.
-                td Verificación de legalidad del establecimiento
+                td Verificación de legalidad del establecimiento.
               tr
-                td Guías legales MinCIT
+                td Guías legales MinCIT.
                 td Orientan obligaciones de alojamiento y hospedaje.
-                td Información clara al huésped y cumplimiento de requisitos
+                td Información clara al huésped y cumplimiento de requisitos.
               tr
-                td Normas técnicas sectoriales
+                td Normas técnicas sectoriales.
                 td Establecen criterios de calidad y procedimientos.
-                td Atención, recepción, reservas y servicio al cliente
+                td Atención, recepción, reservas y servicio al cliente.
 
     separador
 
@@ -232,8 +232,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 #[b Figura 1.]
           span Decálogo de buenas prácticas para la protección de la información 
-        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img16.png", alt="La figura presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad.")
-        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img16-m.png", alt="La figura presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad.")
+        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img16.png", alt="La figura 1 presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad. Presenta diez recomendaciones sobre verificación de identidad, confidencialidad, uso de contraseñas seguras, custodia de documentos, acceso restringido, seguridad de dispositivos, manejo de información digital, eliminación segura de datos, reporte de incidentes y divulgación autorizada. Estas prácticas fortalecen la protección de datos personales y la confianza del huésped.")
+        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img16-m.png", alt="La figura 1 presenta decálogo de buenas prácticas para proteger la información de huéspedes mediante el manejo seguro de datos y la ciberseguridad.Presenta diez recomendaciones sobre verificación de identidad, confidencialidad, uso de contraseñas seguras, custodia de documentos, acceso restringido, seguridad de dispositivos, manejo de información digital, eliminación segura de datos, reporte de incidentes y divulgación autorizada. Estas prácticas fortalecen la protección de datos personales y la confianza del huésped.")
 
 
     .container
