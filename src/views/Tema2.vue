@@ -356,18 +356,22 @@
           img(src="@/assets/curso/tema2/img21.png")
       .col-lg-9.mb-lg-0.order-2.order-lg-2
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-23")
-          div(titulo="Decreto 1964 de 2016")
-            p.ms-5 Actualiza los requisitos de la Tarjeta de Registro Hotelero.
+          div(titulo="Tarjeta de Registro de Alojamiento (TRA)")
+            p.ms-5 Ley 2068 de 2020 y reglamentación vigente. 
+            p.ms-5 La Ley 2068 de 2020, junto con el Decreto 1074 de 2015 y sus modificaciones, establece disposiciones para el registro de huéspedes en establecimientos de alojamiento turístico. La Resolución 700 de 2021 reglamenta la implementación de la Tarjeta de Registro de Alojamiento (TRA).
+
             ul.lista-ul.ms-5.mb-0
               li 
                 i.lista-ul__vineta
-                | Incluye información del huésped, acompañantes y estadía.
+                | Registro de huéspedes: exige diligenciar la TRA mediante el Sistema de Información de Alojamiento Turístico (SIAT), dispuesto por el Ministerio de Comercio, Industria y Turismo.
               li 
                 i.lista-ul__vineta
-                | Exige conservar los registros por mínimo cinco años.
+                | Información del alojamiento: permite registrar los datos requeridos del huésped y su estadía, conforme a las disposiciones aplicables.
               li 
                 i.lista-ul__vineta
-                | Obliga a solicitar autorización para el tratamiento de datos personales.
+                | Protección de datos personales: exige tratar la información bajo condiciones de seguridad y confidencialidad, de acuerdo con la Ley 1581 de 2012 y su reglamentación.
+            
+            p.ms-5 Estas disposiciones están respaldadas por la normativa publicada en el portal oficial de la TRA del Ministerio de Comercio, Industria y Turismo. 
 
           div(titulo="Protección de datos personales")
             p.ms-5 La información del huésped debe manejarse bajo criterios de confidencialidad y seguridad.
